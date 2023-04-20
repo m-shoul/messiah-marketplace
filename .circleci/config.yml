@@ -15,6 +15,9 @@ jobs:
           name: Install dependencies
           command: npm ci
       - run:
+          name: Install EAS CLI
+          command: npm install -g eas-cli
+      - run:
           name: Login to Expo
           command: npx expo login -u $EXPO_USERNAME -p $EXPO_PASSWORD
       - run:
