@@ -16,7 +16,7 @@ jobs:
           command: npm ci
       - run:
           name: Login to Expo
-          command: npx expo login -u $LOGIN_USERNAME -p $LOGIN_PASSWORD
+          command: npx expo login -u $EXPO_USERNAME -p $EXPO_PASSWORD
       - run:
           name: Trigger build
           command: npx eas-cli build --platform all --non-interactive
