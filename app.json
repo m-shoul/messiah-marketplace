@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bold-churros",
-    "slug": "snack-f384b1e7-f686-4dd0-af07-1a9a59f4b8de",
+    "name": "messiah-marketplace",
+    "slug": "messiah-marketplace",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mshoul.messiahmarketplace"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mshoul.messiahmarketplace"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "47391579-729c-4dbf-bc3e-95bfac3b9e8b"
+      }
     }
   }
 }
