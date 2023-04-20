@@ -19,7 +19,8 @@ jobs:
           command: npx expo login -u $EXPO_USERNAME -p $EXPO_PASSWORD
       - run:
           name: Trigger build
-          command: npx eas-cli build --platform all --non-interactive
+          command: npx eas-cli build --platform android --non-interactive
+
 
 workflows:
   build_app:
