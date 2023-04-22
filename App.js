@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import Constants from 'expo-constants';
+import { Image } from 'react-native';
 
 // You can import from local files
 import AssetExample from './components/AssetExample';
@@ -12,10 +13,15 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.paragraph}>
-        Messiah Marketplace
+        Messiah Mrktplace
       </Text>
+      <Card style={styles.card}>
+        <Image source={require('./assets/shop.png')} 
+          style={styles.image} />
+      </Card>
       <Card>
-        <AssetExample />
+        {/* <AssetExample /> 
+        This is how to comment something out*/}
       </Card>
     </View>
   );
@@ -31,8 +37,14 @@ const styles = StyleSheet.create({
   },
   paragraph: {
     margin: 24,
-    fontSize: 18,
+    fontSize: 32,
     fontWeight: 'bold',
     textAlign: 'center',
   },
+  image: {
+    width: '100%',
+    height: '50%',
+    marginTop: 100,
+    resizeMode: 'center'
+  }
 });
