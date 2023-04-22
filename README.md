@@ -1,11 +1,16 @@
-# Sample Snack app
+# Messiah Marketplace
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Overview
+Messiah Marketplace is an e-commerce application specific to Messiah University that allows anyone with Messiah credentials to buy, sell, and trade items.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+The app will also include forum threads where users can discuss relevant topics or post any useful information that would benefit other users.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+This project is developed using Expo with React Native and the MERN stack. It utilizes MongoDB as a database with an Express.js API on the backend, and React Native for the front end.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+## Contributions
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+This application was created as part of a three-semester project at Messiah University, with each semester dedicated to a specific stage of development. The courses include:
+
+* CIS 411 - Systems Analysis and Design Concepts
+* CIS 471 - Application Development I
+* CIS 472 - Application Development II
