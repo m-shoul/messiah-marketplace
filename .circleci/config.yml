@@ -1,5 +1,7 @@
 version: 2.1
 
+owner: "m-shoul"
+
 executors:
   default:
     docker:
