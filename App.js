@@ -13,7 +13,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.paragraph}>
-        Messiah Mrktplace
+        Hello World 
       </Text>
       <Card style={styles.card}>
         <Image source={require('./assets/shop.png')} 
